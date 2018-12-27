@@ -1,0 +1,66 @@
+.ant-card-cover img{
+    height: 143px;
+}
+.ant-card {
+    width: unset !important;
+    cursor: pointer;
+    transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    margin-bottom: 17pt;
+    border-radius: 5pt;
+}
+.selected.user-card .ant-card,.user-card .ant-card:hover{
+    border: solid 2px yellow;
+    background-color: #e6f7ff;
+}
+.ant-card-body {
+    padding: 15px !important;
+}
+.selected.col.col-lg-2::before {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-color: yellow;
+    content: "";
+    z-index: 1;
+    border-bottom-right-radius: 157%;
+    top: 63px;
+    border-top-left-radius: 13px;
+}
+
+.user-card .ant-card.ant-card-bordered::after {
+    width: 2px;
+    height: 64px;
+    background-color: gray;
+    position: absolute;
+    top: -64px;
+    content: "";
+    left: 51pt;
+}
+.user-card .ant-card.ant-card-bordered{
+    margin-top: 47pt;
+}
+#diviser{
+        height: 4pt;
+        border-bottom: solid 2px gray;
+        margin-left: 52pt;
+}
+.card-manager .ant-card::after{
+    content: "";
+    height: 29px;
+    width: 2px;
+    background-color: gray;
+    position: absolute;
+    left: 49pt;
+}
+.nom{
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.prenom{
+    text-transform: lowercase;
+}
+.prenom:first-letter{
+    text-transform: uppercase !important;
+}

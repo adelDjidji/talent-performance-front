@@ -1,0 +1,29 @@
+.icon-login{
+    color: #004f9e;
+    font-size: 44pt;
+    margin-top: 10%;
+}
+.headerLogin{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    height: 76px;
+    border-bottom: solid 2px #ffde3b;
+}
+
+.headerLogin img{
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 1%; 
+}
+.headerLogin h2{
+    margin-top: 16pt;
+    margin-left: 20%;
+    font-weight: bold;
+}
+.headerLogin span{
+    position: absolute;
+    font-size: 9pt;
+    top: 39pt;
+    left: 10pt;
+}

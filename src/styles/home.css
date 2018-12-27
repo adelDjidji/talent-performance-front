@@ -1,0 +1,111 @@
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+  
+.trigger:hover {
+    color: #1890ff;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+  }
+
+  .logo img{
+    width: 100%;
+    padding: 4%;
+  }
+  .logo{
+    background: white;
+  }
+  .logo span{
+    font-size: 11pt;
+    margin-left: 57pt;
+    font-weight: bold;
+    color: #004f9e;
+  }
+  .header-right{
+    display: inline;
+    float: right;
+    margin-right: 13pt;
+  }
+
+  .ant-dropdown-link{
+    padding: 7pt 5pt;
+  }
+
+  .row{
+    margin-top: 20pt;
+  }
+  .error{color: red; font-weight: bold}
+
+  .ant-layout {
+  /* background: unset; */
+  }
+  strong{
+    font-weight: bold;
+  }
+  .div-img{
+    width: 167pt;
+    height: 167pt;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 32pt;
+    margin-bottom: 10pt;
+    border-top: solid 4px #fae514;
+    box-shadow: 2px 4px 14px #e8e8e8;
+    border-bottom: solid 1px #1654a1;
+  }
+  .hidden{
+    display: none;
+  }
+  .info p i{
+    font-size: 10pt;
+    color: yellow;
+    margin-right: 7pt;
+  }
+  .table-head{
+    padding: 6pt;
+    background-color: aliceblue;
+    border-bottom: solid 1px gray;
+  }
+  .table-head-coll{
+    background-color: #40a9ff;
+  }
+  .table-row{
+    padding: 9pt 0pt 0pt 0pt;
+  }
+  .table-row .ant-col-4, .table-row .ant-col-2{
+    padding: 0pt 2pt;
+  }
+  .table-row:hover{
+    background-color: #e6f7ff;
+    cursor: pointer;
+  }
+  .table-head .title{
+    font-size: 13pt;
+    font-weight: bold;
+  }
+
+  .ant-tabs-nav .ant-tabs-tab-active {
+    color: white;
+    font-weight: 500;
+    background-image: linear-gradient(40deg,#40a9ff,#096dd9);
+    border-radius: 8pt;
+    box-shadow: 3px 2px 8px #8080809e;
+}
+
+
+/* Menu Item design */
+.ant-menu-item:after {
+  right:unset !important;
+  left: 0 !important;
+}
+.ant-layout {
+  /* background: #e6f7ff !important; */
+}
